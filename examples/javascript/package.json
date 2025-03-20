@@ -10,6 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rotel-agent": "^0.0.11"
+    "rotel-agent": "^0.0.12-alpha",
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.200.0",
+    "@opentelemetry/resources": "^2.0.0",
+    "@opentelemetry/sdk-node": "^0.200.0",
+    "@opentelemetry/sdk-trace-base": "^2.0.0",
+    "@opentelemetry/sdk-trace-node": "^2.0.0",
+    "@opentelemetry/semantic-conventions": "^1.30.0"
   }
 }
