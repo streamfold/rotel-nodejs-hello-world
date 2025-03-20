@@ -7,8 +7,10 @@ These examples use the [Axiom](https://axiom.co/) free-tier observability backen
 3. [Create an API token](https://axiom.co/docs/reference/tokens#create-basic-api-token)
 
 Export the environment variables
+```
 export AXIOM_DATASET=<your dataset>
 export AXIOM_API_TOKEN=<your token>
+```
 
 ## Javascript
 ```
