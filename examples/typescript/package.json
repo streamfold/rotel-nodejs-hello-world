@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "start": "npx ts-node index.ts",
+    "start": "npm install && npx ts-node index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rotel-agent": "^0.0.11",
+    "@streamfold/rotel": "^0.0.4-alpha",
     "@opentelemetry/api": "^1.9.0",
     "@opentelemetry/exporter-trace-otlp-grpc": "^0.200.0",
     "@opentelemetry/resources": "^2.0.0",

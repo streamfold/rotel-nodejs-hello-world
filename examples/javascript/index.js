@@ -1,4 +1,4 @@
-const { Rotel } = require("rotel-agent");
+const { Rotel } = require("@streamfold/rotel");
 
 const { NodeTracerProvider } = require('@opentelemetry/sdk-trace-node');
 const { OTLPTraceExporter } = require('@opentelemetry/exporter-trace-otlp-grpc');

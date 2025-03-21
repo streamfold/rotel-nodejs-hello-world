@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "rotel-agent": "^0.0.14-alpha",
+    "@streamfold/rotel": "^0.0.4-alpha",
     "@opentelemetry/api": "^1.9.0",
     "@opentelemetry/exporter-trace-otlp-grpc": "^0.200.0",
     "@opentelemetry/resources": "^2.0.0",

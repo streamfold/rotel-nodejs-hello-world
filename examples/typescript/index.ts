@@ -1,5 +1,5 @@
-import { Rotel } from "rotel-agent";
-import { Client } from "rotel-agent/client";
+import { Rotel } from "@streamfold/rotel";
+import { Client } from "@streamfold/rotel/client";
 
 import { NodeTracerProvider } from '@opentelemetry/sdk-trace-node';
 import { OTLPTraceExporter } from '@opentelemetry/exporter-trace-otlp-grpc';
